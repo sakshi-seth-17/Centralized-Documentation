@@ -1,4 +1,4 @@
-                                                   # RPI system Architecture and documentation
+                                                    RPI system Architecture and documentation
 
 ---
 
