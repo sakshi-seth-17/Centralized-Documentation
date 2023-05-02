@@ -8,6 +8,9 @@
 ---
 ### Description of components
 
+RPI
+  - Necessary sensor and camera needs to be connected to the RPI before proceeding with further steps.
+
 [IP Address tracker](https://github.com/TsailabBioinformatics/TrackIPAddress)
   - This component was created to overcome the issue of arbitary change of IP Address of RPIs. 
   - The script of this components runs indefinitely which makes sure that the most current IP address of the machine is stored in firebase making it easier to get lastest information without the need of connecting the machines to other hardware. 
@@ -35,10 +38,15 @@
    - This API acts as a medium to store data on SQLite database present on webserver.
    - The script in [Data Collector - RPI0](https://github.com/TsailabBioinformatics/Data-Collector-RPI0) and [Data Collector - RPI3](https://github.com/TsailabBioinformatics/Data-Collector-RPI3) sends the data to this API hosted on webserver to store it into the SQLite database
 
-[Sensor Management](www.google.com) \
+
 [Sensor Daily Report](https://github.com/TsailabBioinformatics/Reporting-Project)
    - This application is created to be able to monitor information collected from the sensor like temperature, humidity, brightness of the room and images on day to day basis.
    - The above information can be accessed for all the rooms where the machines are deployed.
    - The application can be accessed from [here](http://128.192.158.63:8501/).
    - If not in UGA's network, you will need a VPN to access this application.
+   
 
+[Sensor Management](https://github.com/TsailabBioinformatics/SensorManagementTool) 
+   - This application is created to be able to monitor information collected from the sensor like temperature and humidity over last 7 days, image and current status of machines(active or inactive) of the room.
+   - The application can be accessed from [here](http://aspendb.uga.edu/sensors).
+   - If not in UGA's network, you will need a VPN to access this application.
