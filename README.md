@@ -7,7 +7,8 @@
 
 ---
 ### GitHub link to all the components
-[IP Address tracker](www.google.com)
+
+[IP Address tracker](www.google.com) \
 [Data Collector - RPI0](www.google.com)
 [Data Collector - RPI3](www.google.com)
 [Firebase API on webserver - RPI0](www.google.com)
